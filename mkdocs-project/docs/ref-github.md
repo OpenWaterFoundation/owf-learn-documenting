@@ -142,6 +142,21 @@ To usea GitHub Pages:
 1. Create a  `/docs/index.html` file on the `master` branch of the repository.
 Because GitHub won't save empty folders, an initial file must be created.
 Commit the file to the repository.
+2. Select the above in the repository ***Settings***.<br>
+![GitHub Pages setup 1](ref-github-images/github-pages-settings1.png)
+3. Select a theme for pages.  Start with `Cayman`, which is the default, until there is a need to change.
+4. Can also select a custom domain for the site - skip for now but can specify later.
+5. View the website:
+	1. [https://OpenWaterFoundation.github.io/owf-learn-documenting](https://OpenWaterFoundation.github.io/owf-learn-documenting)<br>
+	![GitHub Pages initial](ref-github-images/github-pages-initial-page.png)
+
+GitHub pages provide a way to host static websites for a product.
+However, significant content editing may be required to achieve a professional-looking website,
+for example using the [Jeckyll](https://jekyllrb.com/) features built-in to GitHub Pages.
+An alternate static website generation tool may be used, such as [MkDocs](ref-mkdocs).
+GitHub pages hosts the static website free for open source projects or will have to be paid for via the personal or organizational account.
+
+**GitHub Pages, especially with Jeckyll, are an option for complex static websites if other options such as MkDocs are not used.**
 
 ### GitHub Gists ###
 

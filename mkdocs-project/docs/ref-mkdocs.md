@@ -1,69 +1,59 @@
-# Learn Documenting / Reference - MkDocs#
+# Learn Documenting / Reference - MkDocs #
 
 [Markdown](markdown) files are a good option for documenting the content of folders
 or providing simple landing pages in GitHub repositories.
-However, it is often necessary to 
+However, it is often necessary to create substantial documents, such as full user or developer manuals for software.
+In this case, the MkDocs software is a good option.
+[Jeckyll](ref-jeckyll) is also an option.
 
-* [Markdown Overview](#markdown-overview)
-* [Benefits of Markdown](#benefits-of-markdown)
-* [Limitations of Markdown](#limitations-of-markdown)
-* [When to Use Markdown](#when-to-use-markdown)
-* [When Not to Use Markdown](#when-not-to-use-markdown)
-* [Markdown Tools](#markdown-tools)
+* [MkDocs Overview](#mkdocs-overview)
+* [Benefits of MkDocs](#benefits-of-mkdocs)
+* [Limitations of MkDocs](#limitations-of-mkdocs)
+* [When to Use MkDocs](#when-to-use-mkdocs)
+* [When Not to Use MkDocs](#when-not-to-use-mkdocs)
+* [MkDocs Tools](#mkdocs-tools)
 
 -----
 
-## Markdown Overview ##
+## MkDocs Overview ##
 
 See:
 
-* [Markdown on Wikipedia](https://en.wikipedia.org/wiki/Markdown)
-* [Mastering Markdown on GitHub](https://guides.github.com/features/mastering-markdown/)
+* [MkDocs](http://www.mkdocs.org/)
+* [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
 
-## Benefits of Markdown ##
+## Benefits of MkDocs ##
 
-1. Markdown files are simple text files and can be edited with a text editor.
-2. Markdown files can often be understood when edited with a text editor, even without formatting output.
-Therefore, Markdown files are similar to README text files.
-3. Markdown can be converted to HTML and therefore can replace more complex HTML in many applications.
-For example, Mkdocs source content is written in Markdown and gets converted to static HTML websites.
-4. Many tools now recognize Markdown and are migrating to its use as a preferred or default option.
-For example, Markdown files in a GitHub repository will automatically be formatted and displayed.
-5. Markdown files are simple and people require little training to attain proficiency using Markdown.
-6. Versions of Markdown files can be easily tracked in a version control system such as Git.
+1. Simple outline for organizing pages.
+2. Source files are Markdown files that can be edited with a text editor.
+3. Markdown files are converted to HTML and therefore can replace more complex HTML in many applications.
+4. Local static website can be viewed in a browser before publishing.
+5. Versions of Markdown files can be easily tracked in a version control system such as Git.
 Differences between versions can be easily pinpointed,
 compared to binary files such as Word and PDF that are essentially "blobs" of encoded text.
-7. Because Markdown is an open standard, there are many open source and commercial software tools.
+6. If necessary, HTML elements can be included for more advanced formatting.
+7. Multiple themes are available to control features such as navigation, search, and styling content.
+8. Custom CSS can be used.
 
-## Limitations of Markdown ##
+## Limitations of MkDocs ##
 
-1. Formatting in Markdown files is simple by design and may not meet all formatting needs.
-Complex formatting such as equations requires additional tools and/or formatting tricks
-such as saving to an image or embedding raw HTML into the Markdown.
-This is a topic of ongoing discussion.
-2. People may not be familiar with Markdown or related software tools.
-3. Although Markdown files can be emailed, they are better suited for online collaborative platforms.
-This limitation may not be as much of a factor in circles where people are comfortable with Markdown.
-4. Markdown editors that show the formatted text parallel to the input may not be available.
-Such tools are becoming more common and therefore this limitation will diminish over time.
+1. Because Markdown is used for formatting, content formatting is generally limited to Markdown capabilities
+(although HTML elements can be inserted into HTML if necessary).  See [Limitations of Markdown](ref-markdown#limitations-of-markdown).
 
-## When to Use Markdown ##
+## When to Use MkDocs ##
 
-The following are recommendations for when to use Markdown:
+The following are recommendations for when to use MkDocs:
 
-1. If the overall environment favors Markdown, such as Git repositories.
-2. When creating navigable, interactive static websites such as software manuals - MkDocs is a good option.
-3. When an upgrade to standard text README files is appropriate,
+1. Use when simple Markdown files such as `README.md` are not enough.
+2. Use to create navigable, interactive static websites such as software manuals,
 in particular when files can be moved to a version control system such as Git/GitHub.
 
-## When Not to Use Markdown ##
+## When Not to Use MkDocs ##
 
 1. When a traditional memo/report document is needed - Word/PDF are probably better in this case.
 
-## Markdown Tools ##
+## MkDocs Tools ##
 
-* Editors:
+* Markdown editors:
 	+ [Atom](https://atom.io/)
 	+ [MarkdownPad](http://markdownpad.com/)
-* Static website generator:
-	+ [MkDocs](http://www.mkdocs.org/)

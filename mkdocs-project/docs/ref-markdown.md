@@ -65,4 +65,5 @@ in particular when files can be moved to a version control system such as Git/Gi
 	+ [Atom](https://atom.io/)
 	+ [MarkdownPad](http://markdownpad.com/)
 * Static website generator:
+	+ [Jeckyll](https://jekyllrb.com/)
 	+ [MkDocs](http://www.mkdocs.org/)

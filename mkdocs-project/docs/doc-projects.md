@@ -37,9 +37,9 @@ Documentation for software projects will for the most part consist of documentat
 For example, follow the recommendations for [Documenting Software](doc-software).
 However, it may also be necessary to create umbrella software project documentation that sits above several software tools.
 
-* Use built-in features of [GitHub](ref-github) for project pages.
-
-**Need to complete**
+* Use built-in features of [GitHub](ref-github) for a software projects,
+starting with basic `README.md` file on the repository, then consider using GitHub Pages static website using [Jeckyll](ref-jeckyll) or [MkDocs](ref-mkdocs).
+* If GitHub Pages are not used directly, host the documentation to a location other than GitHub, such as Amazon S3 static website. 
 
 ### Consulting Project ###
 
