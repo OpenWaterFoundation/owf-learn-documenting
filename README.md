@@ -16,6 +16,7 @@ See the deployed [OWF / Learn Documenting](http://learn.openwaterfoundation.org/
 * [Maintainers](#maintainers)
 * [Contributors](#contributors)
 * [Release Notes](#release-notes)
+* [Test Section](#test-section)
 
 ----
 
@@ -97,3 +98,12 @@ The following release notes indicate the update history for documentation, with 
 if applicable (links to issues via README.md are not cleanly supported by GitHub so use the repository issues page to find).
 
 * 2018-03-11 - initial version
+
+## Test Section ##
+
+This section is used for testing.
+The following links test whether secondary files can be referenced by this page using relative paths.
+This approach is suitable if multiple Markdown files and other content need to be linked together.
+
+* [Link to a subfolder file using relative path](README-folder/README2.md)
+* ![Link to a subfolder image file using relative path](README-folder/OWF-Logo-Favicon-32x32.png)

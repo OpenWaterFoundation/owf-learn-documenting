@@ -42,6 +42,12 @@ when the folder is visited via the GitHub website.
 * Other files with `.md` file extension, when selected via the GitHub website, will be formatted as HTML and displayed.
 * A `.github/README.md` file in the repository will be used as the main repository `README.md` file even if
 a `README.md` file is found in the main folder of the repository.
+* If a single Markdown file is not enough, for example if images or supporting files are needed,
+they can be saved in the repository as well:
+	+ Saving in the same folder may clutter the folder and be desirable
+	+ It is possible to create a sub-folder and store files in that folder,
+	and then reference using a relative path
+	+ See for example the [test in the README.md](https://github.com/OpenWaterFoundation/owf-learn-documenting#test-section) for this documentation's repository.
 * See [GitHub-flavored Markdown](https://github.github.com/gfm/), which provides some extensions to general Markdown
 to increase integration with GitHub features.
 
