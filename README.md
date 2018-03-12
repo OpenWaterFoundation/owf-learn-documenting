@@ -24,15 +24,16 @@ See the deployed [OWF / Learn Documenting](http://learn.openwaterfoundation.org/
 The repository contains the following:
 
 ```text
-.github/              (Files specific to GitHub such as issue template)
-.gitattributes        (Typical Git configuration file)
-.gitignore            (Typical Git configuration file)
-README.md             (This file)
-build-util/           (Useful scripts to view, build, and deploy documentation)
-mkdocs-project/       (Typical MkDocs project for this documentation)
-  mkdocs.yml          (MkDocs configuration file for website)
-  docs/               (Folder containing source Markdown and other files for website)
-  site/               (Folder created by MkDocs containing the static website - ignored using .gitignore)
+.github/              Files specific to GitHub such as issue template.
+.gitattributes        Typical Git configuration file.
+.gitignore            Typical Git configuration file.
+README.md             This file.
+build-util/           Useful scripts to view, build, and deploy documentation.
+docs/                 Folder for GitHub Pages documentation.
+mkdocs-project/       Typical MkDocs project for this documentation.
+  mkdocs.yml          MkDocs configuration file for website.
+  docs/               Folder containing source Markdown and other files for website.
+  site/               Folder created by MkDocs containing the static website - ignored using .gitignore.
 
 ```
 
