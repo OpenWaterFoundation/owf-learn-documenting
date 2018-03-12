@@ -106,4 +106,4 @@ The following links test whether secondary files can be referenced by this page 
 This approach is suitable if multiple Markdown files and other content need to be linked together.
 
 * [Link to a subfolder file using relative path](README-docs/README2.md)
-* ![Link to a subfolder image file using relative path](README-docs/OWF-Logo-Favicon-32x32.png)
+* ![Link to a subfolder image file using relative path](README-docs/OWF-Logo-Favicon-32x32.png) - link to an image in a folder
