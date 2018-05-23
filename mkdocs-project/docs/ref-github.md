@@ -112,11 +112,18 @@ It is an option for specific cases, such as creating a gallery of examples.**
 
 GitHub supports creating a landing page for an organization with a organizational GitHub account.
 
-* See the [User, Organization, and Project Pages](https://help.github.com/articles/user-organization-and-project-pages/).
+* See the GitHub documentation for [User, Organization, and Project Pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
 Only one organization page per account can be created.
 
-**This documentation option is not discussed further given its specific purpose.**
+**This documentation option is not discussed further given its specific purpose.
+Refer to the above link for implementation instructions.**
+
+An example implementation is:
+
+* [Open Water Foundation GitHub Pages website, https://openwaterfoundation.github.io](https://openwaterfoundation.github.io) - URL will automatically change to the next item
+* [Same site, aliased to https://github.openwaterfoundation.org](http://github.openwaterfoundation.org)
+* [Source repository for the above](https://github.com/OpenWaterFoundation/OpenWaterFoundation.github.io)
 
 ### GitHub Pages for User ###
 
@@ -126,7 +133,8 @@ GitHub supports creating a landing page for a user with a personal GitHub accoun
 
 Only one personal page per account can be created.
 
-**This documentation option is not discussed further given its specific purpose.**
+**This documentation option is not discussed further given its specific purpose.
+Refer to the above link for implementation instructions.**
 
 ### GitHub Pages for Project ###
 
