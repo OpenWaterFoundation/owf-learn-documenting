@@ -1,11 +1,11 @@
 # owf-learn-documenting #
 
-This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) training materials
+This repository contains the [Open Water Foundation (OWF)](https://openwaterfoundation.org/) training materials
 explaining how to create documentation,
 in particular focusing on options for datasets, software, and training materials.
 The documentation is written for the layperson in order to encourage use of appropriate technologies.
 
-See the deployed [OWF / Learn Documenting](http://learn.openwaterfoundation.org/owf-learn-documenting/) documentation.
+See the deployed [OWF / Learn Documenting](https://learn.openwaterfoundation.org/owf-learn-documenting/) documentation.
 
 * [Repository Contents](#repository-contents)
 * [Development Environment](#development-environment)
@@ -41,7 +41,7 @@ mkdocs-project/       Typical MkDocs project for this documentation.
 ## Development Environment ##
 
 The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
-Python 2 has been used for development.  See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
+Python 2 has been used for development.  See the [OWF / Learn MkDocs](https://learn.openwaterfoundation.org/owf-learn-mkdocs/)
 documentation for more information about MkDocs.
 
 ## Style Guide ##
@@ -86,7 +86,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Contributors ##
 
